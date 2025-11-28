@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="16" fill="#F3F4F6"/>
+  <g transform="translate(12,12)">
+    <circle cx="13" cy="20" r="12" fill="#0B6ED0"/>
+    <circle cx="27" cy="20" r="12" fill="#F97316" opacity="0.9"/>
+    <text x="8" y="23" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="700" fill="white">J</text>
+    <text x="24" y="23" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="700" fill="white">D</text>
+  </g>
+</svg>
+
