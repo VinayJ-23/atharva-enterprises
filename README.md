@@ -11,7 +11,7 @@ A professional, mobile-friendly website for cement trading and multi-brand deale
 - ✅ **Brands We Deal In** - Logo grid with brand descriptions
 - ✅ **Services** - Detailed service offerings with icons and descriptions
 - ✅ **Gallery** - Responsive image grid with modal view (warehouse, trucks, stock)
-- ✅ **Awards & Testimonials** - Recognition gallery and customer reviews
+- ✅ **Awards** - Recognition 
 - ✅ **Enquiry Page** - Form with validation and WhatsApp integration
 - ✅ **Contact** - Phone, WhatsApp, email, Google Maps, business hours
 - ✅ **FAQs** - 12 relevant questions with accordion UI
