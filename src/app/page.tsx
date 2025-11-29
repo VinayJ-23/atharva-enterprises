@@ -10,6 +10,8 @@ import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import AwardsCarousel from "../components/AwardsCarousel";
+
 
 const services = [
 {
@@ -108,6 +110,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+            {/* Awards / Recognition */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold" style={{ color: '#1F3A60' }}>Awards & Recognition</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">Some of our notable awards and recognitions over the years.</p>
+          </div>
+
+          {/* The actual carousel component */}
+          <div className="max-w-5xl mx-auto">
+            <AwardsCarousel />
+          </div>
+        </div>
+      </section>
+
 
       {/* Services Overview */}
       <section className="py-12" style={{ backgroundColor: '#ECEFF4' }}>
