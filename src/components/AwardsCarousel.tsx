@@ -19,14 +19,6 @@ const awardImages = [
 ];
 
 export default function AwardsCarousel() {
-  const total = awardImages.length;
-
-  // These fixes TypeScript complaint for loopedSlides / loopAdditionalSlides
-  const extraOptions: any = {
-    loopedSlides: total,
-    loopAdditionalSlides: total,
-  };
-
   return (
     <div
       style={{
@@ -44,12 +36,17 @@ export default function AwardsCarousel() {
     >
       <div style={{ maxWidth: 1600, margin: "0 auto", paddingLeft: 16, paddingRight: 16 }}>
         <Swiper
-          {...extraOptions}   // <-- TS error fixed
           modules={[EffectCoverflow, Autoplay, Pagination, Navigation]}
           effect="coverflow"
           centeredSlides={true}
           loop={true}
-          autoplay={{ delay: 2200, disableOnInteraction: false }}
+          autoplay={{
+            delay: 2200,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: false,
+            waitForTransition: false,
+          }}
+          speed={900}
           navigation
           pagination={{ clickable: true }}
           coverflowEffect={{
