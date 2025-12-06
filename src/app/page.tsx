@@ -63,14 +63,15 @@ export default function Home() {
         style={{ background: 'white' }}
       >
         <div className="absolute inset-0 opacity-75">
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/fd42f8b2-7728-4ecb-a909-fbedaceae486/visual-edit-uploads/1764092403227-iwqqjt2t7v9.jpg"
-            alt="Construction site"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
+  <Image
+    src="/bgimg.jpg"    // ← your local public folder image
+    alt="Construction site"
+    fill
+    className="object-cover"
+    priority
+  />
+</div>
+
         
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="max-w-3xl">
