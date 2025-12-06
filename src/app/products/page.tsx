@@ -129,32 +129,62 @@ const constructionMaterials = [
   {
     id: "m2",
     category: "materials",
-    brand: "Primer",
-    image: "/products/primer.png",
-    specifications: ["Surface prep", "Adhesion", "Durability", "Easy application"],
+    brand: "AAC Block Chemicals",
+    image: "/products/aachem.png",
+    specifications: ["Enhances bonding and curing", "Improves block strength", "Reduces water absorption"],
   },
   {
     id: "m3",
+    category: "materials",
+    brand: "Alumina Cement",
+    image: "/products/aluminuscem.png",
+    specifications: ["Rapid setting time", "High temperature resistance", "Sulphate corrosion protection"],
+  },
+  {
+    id: "m4",
+    category: "materials",
+    brand: "Bricks",
+    image: "/products/bricks.png",
+    specifications: ["Uniform shape and size", "High compressive strength", "Thermal insulation"],
+  },
+   {
+    id: "m5",
+    category: "materials",
+    brand: "Cement Clinker",
+    image: "/products/clinker.png",
+    specifications: ["Essential for cement production", "High calcium content", "Stable chemical composition"],
+  },
+  {
+    id: "m6",
     category: "materials",
     brand: "Naptha and PCE based Ad-mixture",
     image: "/products/pceadmix.png",
     specifications: ["Workability", "Strength gain", "Reduced water", "Improved finish"],
   },
   {
-    id: "m4",
+    id: "m7",
     category: "materials",
     brand: "Plumbing Materials",
     image: "/products/plumbing.png",
     specifications: ["Pipes & fittings", "Valves & taps", "Quality assured", "Bulk supply"],
   },
   {
-    id: "m5",
+    id: "m8",
+    category: "materials",
+    brand: "Primer",
+    image: "/products/primer.png",
+    specifications: ["Surface prep", "Adhesion", "Durability", "Easy application"],
+  },
+  {
+    id: "m9",
     category: "materials",
     brand: "White Cement",
     image: "/products/whitecem.png",
     specifications: ["Smooth finish", "High whiteness", "Interior/exterior", "Consistent quality"],
-  },
+  }
+   
 ];
+
 
 const allProducts = [...cementProducts, ...steelProducts, ...constructionMaterials];
 

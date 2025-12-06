@@ -39,8 +39,7 @@ const services = [
 const stats = [
 { value: "11+", label: "Years Experience" },
 { value: "300+", label: "Happy Clients" },
-{ value: "15,000", label: "Monthly Volume (MT)" },
-{ value: "24/7", label: "Support Available" }];
+{ value: "15,000", label: "Monthly Volume (MT)" }];
 
 
 export default function Home() {
@@ -125,7 +124,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
 
       {/* Services Overview */}
       <section className="py-12" style={{ backgroundColor: '#ECEFF4' }}>

@@ -81,8 +81,14 @@ export default function Footer() {
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-                  <a href="tel:+919423593257" className="text-black hover:text-blue-300 transition-colors">+91 94235 93257</a>
-                </div>
+  <div>
+    <a href="tel:+91 9423593257" className="text-black hover:text-blue-300 transition-colors">+91 9423593257</a>
+  </div>
+  <div>
+    <a href="tel:+91 9766344554" className="text-black hover:text-blue-300 transition-colors">+91 9766344554</a>
+  </div>
+</div>
+
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400">
@@ -102,19 +108,25 @@ export default function Footer() {
                 <div className="w-8 h-8 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400">
                   <Clock className="w-4 h-4" />
                 </div>
-                <span className="text-black">Mon - Sat: 9:00 AM - 7:00 PM<br />Sunday: Closed</span>
+                <span className="text-black">Mon -Sat: 9:00 AM -7:00 PM<br />Sunday: Closed</span>
               </li>
             </ul>
           </div>
         </div>
     
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 mt-6 pt-8 text-sm text-center text-black">
-          <p className="text-black">
-            © {new Date().getFullYear()} Atharva Enterprises
-          </p>
-          <p className="mt-3 text-xs text-black">All rights reserved. Built with precision and trust.</p>
-        </div>
+<div className="border-t border-white/10 mt-6 pt-8 text-sm text-center text-black">
+  <p className="text-black">
+    © {new Date().getFullYear()} Atharva Enterprises
+  </p>
+  <p className="mt-1 text-xs text-black">All rights reserved. Built with precision and trust.</p>
+  <p className="mt-5 text-xs text-gray-1200 ">
+  Built with ❤️ by <span className="font-semibold text-black">VinuTech Solutions</span>
+</p>
+
+
+</div>
+
       </div>
     </footer>
   );
