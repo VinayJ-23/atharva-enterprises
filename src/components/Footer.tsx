@@ -12,18 +12,18 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-  <Image
-    src="/logo.png"
-    alt="Atharva Enterprises Logo"
-    width={40}
-    height={40}
-    className="object-contain"
-  />
+              <Image
+                src="/logo.png"
+                alt="Atharva Enterprises Logo"
+                width={40}
+                height={40}
+                className="object-contain"
+              />
 
-  <span className="font-bold text-xl text-black">
-    Atharva Enterprises
-  </span>
-</div>
+              <span className="font-bold text-xl text-black">
+                Atharva Enterprises
+              </span>
+            </div>
 
             <div className="mb-4">
               <p className="text-[16px] bg-white/10 px-2 py-1 rounded text-black font-semibold inline-block">
@@ -81,13 +81,13 @@ export default function Footer() {
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-  <div>
-    <a href="tel:+91 9423593257" className="text-black hover:text-blue-300 transition-colors">+91 9423593257</a>
-  </div>
-  <div>
-    <a href="tel:+91 9766344554" className="text-black hover:text-blue-300 transition-colors">+91 9766344554</a>
-  </div>
-</div>
+                  <div>
+                    <a href="tel:+91 9423593257" className="text-black hover:text-blue-300 transition-colors">+91 9423593257</a>
+                  </div>
+                  <div>
+                    <a href="tel:+91 9766344554" className="text-black hover:text-blue-300 transition-colors">+91 9766344554</a>
+                  </div>
+                </div>
 
               </li>
               <li className="flex items-start space-x-3">
@@ -113,19 +113,19 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-    
+
         {/* Bottom Bar */}
-<div className="border-t border-white/10 mt-6 pt-8 text-sm text-center text-black">
-  <p className="text-black">
-    © {new Date().getFullYear()} Atharva Enterprises
-  </p>
-  <p className="mt-1 text-xs text-black">All rights reserved. Built with precision and trust.</p>
-  <p className="mt-5 text-xs text-gray-1200 ">
-  Built with ❤️ by <span className="font-semibold text-black">VinuTech Solutions</span>
-</p>
+        <div className="border-t border-white/10 mt-6 pt-8 text-sm text-center text-black">
+          <p className="text-black">
+            © {new Date().getFullYear()} Atharva Enterprises
+          </p>
+          <p className="mt-1 text-xs text-black">All rights reserved. Built with precision and trust.</p>
+          <p className="mt-5 text-xs text-gray-1200 ">
+            Developed by <span className="font-semibold text-black">Vinay Jadal</span>
+          </p>
 
 
-</div>
+        </div>
 
       </div>
     </footer>
